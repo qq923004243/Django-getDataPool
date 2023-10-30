@@ -1,0 +1,21 @@
+2023-10-17 10:34:38,000 [INFO] autoreload.py::run_with_reloader:668: Watching for file changes with StatReloader
+2023-10-17 10:34:38,108 [INFO] views.py::<module>:24: 初始化定时任务数据库完毕，定时任务清理完毕。
+2023-10-17 10:34:38,115 [INFO] views.py::<module>:33: 实例化调度器。
+2023-10-17 10:34:38,116 [INFO] views.py::<module>:36: 调度器使用DjangoJobStore()。
+2023-10-17 10:34:38,121 [INFO] views.py::<module>:54: 调度器开始运行.
+2023-10-17 10:36:00,593 [INFO] basehttp.py::log_message:212: "GET /test1 HTTP/1.1" 301 0
+2023-10-17 10:36:00,610 [INFO] basehttp.py::log_message:212: "GET /test1/ HTTP/1.1" 200 127
+2023-10-17 10:36:00,683 [WARNING] log.py::log_response:241: Not Found: /favicon.ico
+2023-10-17 10:36:00,684 [WARNING] basehttp.py::log_message:212: "GET /favicon.ico HTTP/1.1" 404 2221
+2023-10-17 10:37:38,121 [INFO] views.py::job_send_record:40: 开始执行job_send_record1.
+2023-10-17 10:37:38,122 [INFO] views.py::job_send_record:41: 开始获取当前时间.
+2023-10-17 10:37:38,124 [INFO] views.py::job_send_record:44: 开始获取当前时间：2023-10-17 10:37:38
+2023-10-17 10:37:38,125 [INFO] views.py::job_send_record:47: 传入参数时间：2023-10-17 10:27:38
+2023-10-17 10:37:38,129 [INFO] views.py::job_send_record:48: 在时间:2023-10-17 10:27:38---2023-10-17 10:37:38无QL订单数据
+2023-10-17 10:37:38,130 [INFO] views.py::job_send_record:50: job_send_record1 任务运行成功！2023-10-17 10:37:38
+2023-10-17 10:40:38,118 [INFO] views.py::job_send_record:40: 开始执行job_send_record1.
+2023-10-17 10:40:38,119 [INFO] views.py::job_send_record:41: 开始获取当前时间.
+2023-10-17 10:40:38,122 [INFO] views.py::job_send_record:44: 开始获取当前时间：2023-10-17 10:40:38
+2023-10-17 10:40:38,128 [INFO] views.py::job_send_record:47: 传入参数时间：2023-10-17 10:30:38
+2023-10-17 10:40:38,129 [INFO] views.py::job_send_record:48: 在时间:2023-10-17 10:30:38---2023-10-17 10:40:38无QL订单数据
+2023-10-17 10:40:38,129 [INFO] views.py::job_send_record:50: job_send_record1 任务运行成功！2023-10-17 10:40:38
